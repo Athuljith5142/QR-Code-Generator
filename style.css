@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+h1 {
+    margin-top: 60px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fdd835; 
+}
+span {
+    color: #ffffff; 
+    
+}
+
+.level {
+    background-color: #1e1e1e;
+    border-radius: 16px;
+    padding: 35px 30px;
+    width: 360px;
+    margin-top: 30px;
+    box-shadow: 0 10px 25px rgba(250, 226, 8, 0.877);
+    text-align: center;
+    color: #ffffff;
+}
+
+.level p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fdd835;
+    margin-bottom: 15px;
+}
+
+.level input {
+    width: 92%;
+    height: 45px;
+    border: 2px solid #fdd835;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #121212;
+    color: #ffffff;
+    outline: none;
+    transition: 0.3s ease;
+    
+}
+.level input:focus {
+    border-color: #fff176;
+    box-shadow: 0 0 5px rgba(243, 220, 12, 0.923);
+}
+
+#bt1 {
+    width: 70%;
+    height: 45px;
+    display: inline-block;
+    background-color: #fdd835;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+    margin-right: 0.5rem;
+    
+}
+
+#bt2{
+    width: 25%;
+    height: 45px;
+    display: inline-block;
+    background-color: #fdd835;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+    margin-left: 5px;
+}
+.level #bt1:hover {
+    background-color: #fff176;
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(255, 235, 59, 0.2);
+}
+
+#bt2:hover{
+    background-color: #fff176;
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(255, 235, 59, 0.2);
+}
+.img{
+    margin-top: 2.5rem;
+}
