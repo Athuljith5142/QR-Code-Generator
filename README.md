@@ -4,7 +4,7 @@ A simple, responsive web application that allows users to generate QR codes from
 
 ## 🌐 Live Demo
 
-[Check it out here](#) <!-- Replace '#' with your live site URL if hosted -->
+[Check it out here](https://athuljith5142.github.io/QR-Code-Generator/qr.html) <!-- Replace '#' with your live site URL if hosted -->
 
 
 
